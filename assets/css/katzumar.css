@@ -6,6 +6,7 @@ header
 position
 text-center
 small mb-0 text-light
+canvas
 filters
 footer
 a
@@ -22,8 +23,7 @@ container
 header-title
 brand-title
 header-subtitle
-before
-bg-custom-gray
+before-custom-gray
 header-mini
 info
 active
@@ -72,11 +72,10 @@ navbar-nav
   
 
 }
-
 canvas {
   position: fixed;
-  top: 0;
-  left: 0;
+width: 100%;
+overflow: hidden;
 }
 
 
